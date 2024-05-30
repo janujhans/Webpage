@@ -1,0 +1,271 @@
+﻿body {
+    background-color: florawhite;
+    font-family: arial, sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    padding: 14px;
+}
+#lightSlider li{}
+
+.demo {
+    width: 100%
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0
+}
+li {
+    display:block;
+    float: left;
+    color:black;
+    margin-right: 6px;
+    cursor: pointer
+}
+
+img {  
+    display: inline-block;
+    height: 60%;
+    width: 100%;
+}
+.stars i {
+    color: #f6d151;
+  border:1px solid yellow;
+}
+
+.stars span {
+    font-size: 13px;
+}
+
+hr {
+    color: #d4d4d4;
+   
+}
+
+.badge {
+  color:white;
+    padding: 10px !important;
+    padding-bottom: 12px !important;
+}
+
+.badge i {
+    font-size: 15px;
+}
+
+.profile-image {
+    width: 40px;
+    border: 2px solid #8954a8;
+}
+
+.comment-ratings i {
+    font-size: 14px;
+}
+
+.username {
+     color:#8954a8;
+    font-size: 12px;
+}
+
+.comment-profile {
+    line-height: 17px
+}
+
+.date span {
+    font-size: 12px
+}
+
+.p-ratings i {
+    color: #f6d151;
+    font-size: 32px
+}
+
+.btn-long {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.btns {
+    margin-top: 15px;
+}
+
+.btns .btn {
+    height: 56px;
+    width:150px;
+   border-radius:40px;
+}
+.btns .cart {
+    border-color: 2px solid white;
+    background-color:navy;
+    color:white;
+    box-shadow:0 10px 15px grey;
+    trasition: background-color 0.4s;
+}
+.btns .buy {
+    border-color: 2px solid white;
+    background-color:navy;
+    color:white;
+    box-shadow:0 10px 15px grey;
+}
+.btns .wishlist {
+    border-color: 2px solid white;
+    background-color:navy;
+    color:white;
+    font-weight:20px;
+    box-shadow:0 10px 15px grey;
+}
+
+.btns .cart:hover {
+    background-color:purple !important;
+    color: #fff;
+}
+.btns .wishlist:hover {
+    background-color:purple !important;
+    color: #fff
+}
+.btns .buy:hover {
+    background-color: purple !important;
+    color: #fff
+}
+.btns .wishlist:hover i {
+    color: #fff
+}
+
+.btns .wishlist i {
+    color: #ff7676
+}
+
+.comment-ratings i {
+    color: #f6d151;
+}
+
+.followers {
+    font-size: 9px;
+    color: #d6d4d4
+}
+
+.store-image {
+    width: 38px;
+}
+
+.dot {
+    height: 11px;
+    width: 11px;
+    border:1px solid black;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.bullet-text {
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.my-color {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+label.radio span {
+    border: 3px solid black;
+    display: inline-block;
+    color: #8f37aa;
+    border-radius: 40%;
+    width: 25px;
+    height: 25px;
+    text-transform: uppercase;
+    transition: 0.5s all
+}
+label.radio .blue {
+    background-color: #fac8f9;
+    border-color: #fac8f9;
+}
+
+label.radio .green {
+    background-color: #cabcd6;
+    border-color: #cabcd6;
+}
+
+label.radio .orange {
+    background-color:#bae8d2 ;
+    border-color: #bae8d2;
+}
+
+label.radio input:checked+span {
+    color: white;
+    position: relative;
+}
+
+label.radio input:checked+span::before {
+    opacity: 1;
+    content: '\2713';
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    left: 4px
+}
+
+.card-body {
+    padding: 0.3rem 0.3rem 0.3rem
+}
+
+.card-img-top{
+width:80px;
+  height:100px;
+background-color:white;
+  margin: 0 2px;
+  transition:1s;
+}
+.card-img-top:hover{
+transform:scale(1.2);
+  z-index:2;
+  border-radius:6px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:white;
+  background-color: navy;
+}
+
+.pactive{
+  background-color:purple;
+}
+header{
+  background-color:pink;
+}
